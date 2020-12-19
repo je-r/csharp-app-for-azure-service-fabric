@@ -32,6 +32,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\jerVotingData\jerVotingData.csproj" />
     <ProjectReference Include="..\jerVotingWeb\jerVotingWeb.csproj">
       <ServiceLaunchUrl>http://{MachineName}:{ServicePort}/</ServiceLaunchUrl>
     </ProjectReference>

@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/jerVoting" xmlns="http://schemas.microsoft.com/2011/01/fabric">
   <Parameters>
+    <Parameter Name="jerVotingData_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="jerVotingData_PartitionCount" Value="1" />
+    <Parameter Name="jerVotingData_MinReplicaSetSize" Value="1" />
+    <Parameter Name="jerVotingData_TargetReplicaSetSize" Value="1" />
     <Parameter Name="jerVotingWeb_ASPNETCORE_ENVIRONMENT" Value="Development" />
     <Parameter Name="jerVotingWeb_InstanceCount" Value="1" />
   </Parameters>
